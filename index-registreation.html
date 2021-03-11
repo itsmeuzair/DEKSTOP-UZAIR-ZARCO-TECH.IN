@@ -1,0 +1,153 @@
+<!DOCTYPE html>  
+<html>  
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1; 
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body> 
+
+<h1>CREATED BY:SS20CO010</h1>
+<form>  
+  <div class="container">  
+  <center>  <h2> Student Registeration Form</h2> </center>
+  <center><h3>GOVERMENT POLYTECHNIC MUMBAI</h3> </center>
+  <hr> 
+  
+  <fieldset>
+    <legend> PERSONAL INFORMATION</legend>
+  <label> Firstname </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label> Middlename: </label>   
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+<label> Lastname: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required /> <div>
+    <tr>
+
+                    <td>Date Of Birth :</td>
+                    <td><input type="DATE" id="name" name="DOB"></td>
+                </tr>
+              <tr>
+</div>
+<div>  
+<label> 
+<tr>
+  Gender:  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required> 
+<label>  
+  </fieldset>
+  <fieldset>
+   <legend> College Information </legend>
+  <td>ClassX Percentage:</td>
+  <td><input type="number" name="ClassX Percentage">
+  </td>
+  <div>
+  <tr>
+    <td>Enrollment No:</td>
+    <td><input type="number" name="Enrollment No">
+    </td>
+</tr>
+
+  
+</div>
+Shift:   
+  
+<select>  
+<option value="Shift">Shift</option>  
+<option value="FYFS">FYFS </option>  
+<option value="FYSS">FYSS</option>  
+</select>  
+</div>  
+<div>  
+<label>   
+
+Department : 
+<br>
+</label>   
+  
+<select>  
+<option value="Course">Department</option>  
+<option value="CO">COMPUTER ENGINEERING </option>  
+<option value="CE">CIVIL ENGINEERING</option>  
+<option value="EE">ELECTRICAL ENGINEERING</option>  
+<option value="ME">MECHANICAL ENGINEERING</option>  
+</select>  
+</div>  
+<div>  
+<label>   
+</fieldset>
+<fieldset>
+  <legend> Other Information</legend>
+Phone :  
+</label>  
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>
+<div>
+<label for="Pincode"><b>PINCODE</b></label>
+<input type="text" placeholder="Ente Pincode"
+name="Pincode" required>
+</div>
+
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+    </fieldset>
+    <button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html>  
